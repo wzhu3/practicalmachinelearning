@@ -130,6 +130,7 @@ $(document).ready(function () {
 <div id="data-cleaning" class="section level3">
 <h3>Data Cleaning</h3>
 <p>A quick inspection of the train and test data sets identified many NA. This is particular true for the test set, in which 100 of the 160 variables contained NA only. While the train data set also contains lots of NA, there is 0 variable that is entirely NA. We will remove the 100 variables with entirely NA in the test set and only inlcluded the remaining variables in modle building, evaluation, and prediction. This is simply due to the fact that we can not use the variables with NA entirely for prediction. We also removed the first two variables that contained the participants identification. At the end, 57 variables were included in the initial phase of model building. We had a large train data set. I used 80% for model building and 20% for cross validation.</p>
+<pre class="r"><code>knitr::opts_chunk$set(echo = F)</code></pre>
 <pre><code>## Loading required package: caret</code></pre>
 <pre><code>## Loading required package: lattice</code></pre>
 <pre><code>## Loading required package: ggplot2</code></pre>
