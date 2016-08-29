@@ -1,7 +1,6 @@
 ---
 title: "Practical Machine Learning Project: Prediction Assignment Writeup"
 author: "WZ"
-date: "August 27, 2016"
 output: html_document
 ---
 
