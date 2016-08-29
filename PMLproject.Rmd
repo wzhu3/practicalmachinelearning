@@ -1,7 +1,9 @@
 ---
 title: "Practical Machine Learning Project: Prediction Assignment Writeup"
 author: "WZ"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ### Synopsis
