@@ -41,7 +41,7 @@ train1$classe <- train$classe
 names(train1)
 
 set.seed(128)
-training_i <- createDataPartition(y=train1$classe, p=0.8, list=FALSE)
+training_i <- createDataPartition(y=train1$classe, p=0.8, list=F)
 training <- train1[training_i,]
 cv <- train1[-training_i,]
 dim(test1)

@@ -174,7 +174,7 @@ names(train1)</code></pre>
 ## [55] &quot;magnet_forearm_x&quot;     &quot;magnet_forearm_y&quot;     &quot;magnet_forearm_z&quot;    
 ## [58] &quot;classe&quot;</code></pre>
 <pre class="r"><code>set.seed(128)
-training_i &lt;- createDataPartition(y=train1$classe, p=0.8, list=FALSE)
+training_i &lt;- createDataPartition(y=train1$classe, p=0.8, list=F)
 training &lt;- train1[training_i,]
 cv &lt;- train1[-training_i,]
 dim(test1)</code></pre>
